@@ -1,17 +1,17 @@
 {
-    "name": "rollup-starter-lib",
+    "name": "rollup-lib-parcel-app",
     "version": "1.0.0",
     "main": "lib-dist/how-long-till-lunch.cjs.js",
     "module": "lib-dist/how-long-till-lunch.esm.js",
     "browser": "lib-dist/how-long-till-lunch.umd.js",
     "dependencies": {
-        "ms": "^2.0.0"
+        "ms": "^2.1.2"
     },
     "devDependencies": {
-        "@rollup/plugin-commonjs": "^11.0.1",
-        "@rollup/plugin-node-resolve": "^7.0.0",
-        "parcel": "^2.0.0-nightly.284",
-        "rollup": "^2.15.0"
+        "@rollup/plugin-commonjs": "^15.0.0",
+        "@rollup/plugin-node-resolve": "^9.0.0",
+        "parcel": "^2.0.0-nightly.368",
+        "rollup": "^2.26.3"
     },
     "scripts": {
         "build": "rollup -c --sourcemap",

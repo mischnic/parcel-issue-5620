@@ -27,7 +27,7 @@ export default [
 		input: 'lib-src/main.js',
 		external: ['ms'],
 		output: [
-			{ file: pkg.main, format: 'cjs' },
+			{ file: pkg.main, exports: 'auto', format: 'cjs' },
 			{ file: pkg.module, format: 'es' }
 		]
 	}
