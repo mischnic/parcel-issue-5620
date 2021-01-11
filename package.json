@@ -10,17 +10,11 @@
     "devDependencies": {
         "@rollup/plugin-commonjs": "^15.0.0",
         "@rollup/plugin-node-resolve": "^9.0.0",
-        "parcel": "^2.0.0-nightly.368",
+        "parcel": "2.0.0-nightly.524",
         "rollup": "^2.26.3"
     },
     "scripts": {
-        "build": "rollup -c --sourcemap",
         "dev": "rollup -c -w --sourcemap",
-        "test": "node test/test.js",
-        "pretest": "npm run build",
         "app:start": "parcel serve app-src/index.html --dist-dir app-dist"
-    },
-    "files": [
-        "dist"
-    ]
+    }
 }
